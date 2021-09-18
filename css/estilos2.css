@@ -1,0 +1,185 @@
+/* caso con csss*/
+html {
+    height: 100%;
+    font-style:normal;
+    font-family:initial;
+     /*face="Comic Sans MS,arial"*/
+         
+}
+
+header{
+    width: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(#EEEEEE,#EEEEEE);
+    /*background-image: url(/imagenes/banner4.png);
+    background-repeat:no-repeat;*/
+    
+}
+
+article{
+    display: inline-block;
+    height: 800px;
+    padding: 50px;
+    width: 100%;
+}
+
+.article_iniciar{
+
+    display: inline-block;
+    height: 800px;
+    padding: 50px;
+    width: 100%;
+}
+
+article img{
+    height: 28;
+    width: 100px;
+    
+
+}
+
+article img:hover{
+    
+    background-image: -moz-linear-gradient();
+    filter: opacity(.5);
+}
+
+.iniciarSesion{
+    background: #01122D;
+    margin: 00px auto;
+    width: 100%;
+    padding: 000px;
+    border-radius:0px;
+    color: white;
+}
+
+
+.contenedor{
+    margin: 50px auto;
+    width: 400px;
+    padding: 30px;
+    background: white(0,0,0,.1);
+    border-radius:10px;
+
+
+}
+
+
+.contenedor h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 30px;
+    color: #01122D;
+    text-align: center;
+
+
+}
+
+.contenedor img {
+    width: 100%;
+    padding: 10px 0;
+}
+.contenedor .elemento label {
+    color:black;
+
+
+}
+
+.contenedor .elemento input {
+    width: 100%;
+    padding: 10px 0;
+    color: black;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #2665CB;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+
+.contenedor .elemento input[type="submit"]{
+    background-color:#FF6200;
+    border:none;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 50px;
+}
+
+.contenedor2 .elemento input[type="submit"]{
+    background-color:#01122D;
+    list-style-type: circle;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    border:none;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 30px;
+    align-items: center;
+    margin:auto
+    
+}
+
+
+
+link {
+    font-size:10px;
+}
+
+div {
+    font-size: 15px;
+}
+.fondomenu {
+    background-color:#FF6200;
+    overflow: hidden;
+    margin: 0;
+    padding: 10px;
+    border: white;
+    border-radius: white;
+    text-align: right;
+    height: 25px;
+}
+.iniciar {
+    background-color:#01122D;
+}
+
+ul {
+    height: 10px;
+}
+
+li{
+    float: center;
+    list-style: none;
+
+}
+li a{
+    
+    color: white;
+    text-align: none;
+    padding: 25px;
+    text-decoration: none;
+    background-color:none;
+    text-align: center;
+    
+}
+li a:hover{
+    background-color: #EEEEEE;
+    color:black;
+    
+}
+
+.colormenu {
+    background-color: #01122D;
+}
+
+#imagen {
+    float:left
+}
